@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula HTML</title>
+  </head>
+
+  <body>
+    <!-- Título principal da página -->
+    <h1>Boa noite!! Sextouuu!!</h1>
+
+    <!-- Início do formulário -->
+    <form action="" method="post">
+      <!-- Campo de texto para o nome -->
+      <label for="nome">Nome:</label>
+      <input id="nome" name="nome_completo" type="text" />
+      <br />
+
+      <!-- Campo para e-mail -->
+      <label for="email">E-mail:</label>
+      <input id="email" name="email" type="email" />
+      <br />
+
+      <!-- Campo para senha -->
+      <label for="se">Senha:</label>
+      <input id="se" name="senha" type="password" />
+      <br />
+
+      <!-- Campo para telefone -->
+      <label for="tele">Telefone:</label>
+      <input id="tele" name="telefone" type="tel" />
+      <br />
+
+      <!-- Campo para data e hora -->
+      <label for="niver">Data:</label>
+      <input id="niver" name="aniversaio" type="datetime-local" />
+      <br />
+
+      <!-- Pergunta com botões de opção (radio) -->
+      <h3>Qual sua linguagem preferida?</h3>
+      <input id="html" name="fav_lang" type="radio" value="html" />
+      <label for="html">HTML</label>
+
+      <input id="css" name="fav_lang" type="radio" value="css" />
+      <label for="css">CSS</label>
+
+      <input id="script" name="fav_lang" type="radio" value="javascript" />
+      <label for="script">JAVASCRIPT</label>
+      <br />
+
+      <p>Qual turno você prefere?</p>
+      <input type="radio" id="manha" name="turno" value="manha" />
+      <label for="manha">Manhã</label>
+
+      <input type="radio" id="tarde" name="turno" value="tarde" />
+      <label for="tarde">Tarde</label>
+
+      <input type="radio" id="tarde" name="turno" value="tarde" />
+      <label for="noite">Noite</label>
+      <br /><br />
+
+      <!-- Caixa de seleção obrigatória (checkbox) para aceitar termos -->
+      <input id="termo" type="checkbox" name="termos" required />
+      <label for="termo">Aceito os termos</label>
+      <br />
+
+      <!-- Caixa de seleção opcional -->
+      <input id="com" type="checkbox" name="comunidade" />
+      <label for="com">Participar da comunidade</label>
+      <br />
+
+      <!-- Campo de texto maior para mensagens -->
+      <label for="mensagem">Deixe sua mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem"></textarea>
+      <br />
+
+      <br /><br />
+
+      <!-- PLUS -->
+
+      <!-- Lista suspensa (select) para escolher gênero -->
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Selecione</option>
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+        <option value="outro">Outro</option>
+        <option value="nao_dizer">Prefiro não dizer</option>
+      </select>
+      <br /><br />
+
+      <!-- Botões de envio e limpeza -->
+      <input type="submit" value="Enviar" />
+      <input type="submit" value="Limpar" />
+
+      <!-- PLUS -->
+
+      <!-- Botão de envio alternativo -->
+      <!-- <button type="submit">Enviar</button><br />-->
+
+      <!-- Botão para limpar todos os campos -->
+      <!-- <button type="reset">Limpar</button><br /> -->
+    </form>
+    <!-- Fim do formulário -->
+  </body>
+</html>
