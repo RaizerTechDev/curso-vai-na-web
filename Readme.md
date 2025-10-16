@@ -6,7 +6,7 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 
 ## # Índice 📚
 
-- 🔹 [1. Introdução ao HTML5](#1-introdução-ao-html5)
+- 🔹 [Introdução ao HTML5](#introdução-ao-html5)
 
 - 🔹 [2. Formulário HTML](#2-formulários-html)
 
@@ -19,18 +19,18 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 - 🔹 [Passo a passo para subir no GitHub](#passo-a-passo-para-subir-no-github)  
 
 - 🔹 [Licença](#licença) 
- 
+
 - 🔹 [Autor](#autor)
 
 <br>
 
 ---
 
-###  1. Introdução ao HTML5  
+###  Introdução ao HTML5  
 
 HTML (HyperText Markup Language) é a linguagem básica para construir páginas na web. Usamos tags para estruturar textos, títulos, listas, links, imagens, entre outros elementos.
 
-- [release/aula-html5-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/release/aula-forms-n2/Aula-html-n2)
+- [release/aula-html5-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/Aula-html-n2)
 
 ### 2. Formulários HTML
 Os formulários permitem coletar dados dos usuários, como nomes, emails e outras informações.  
