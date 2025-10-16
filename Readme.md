@@ -41,6 +41,9 @@ Regex são padrões usados para validar entradas de texto, como campos de formul
   
   - [release/desafio-html](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/desafio-html-vainaweb-06102025)
 
+   ### 5. Aula GitHub: Sua Primeira Página Web
+   GitHub é uma plataforma essencial para controle de versão e colaboração.
+
   - [release/aula-github](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-github)
 
 <br>
