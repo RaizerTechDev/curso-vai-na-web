@@ -25,21 +25,23 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 
 HTML (HyperText Markup Language) é a linguagem básica para construir páginas na web. Usamos tags para estruturar textos, títulos, listas, links, imagens, entre outros elementos.
 
-- [release/aula-html5-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/master/Aula-html-n2)
+- [release/aula-html5-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/release/aula-forms-n2/Aula-html-n2)
 
 ### 2. Formulários HTML
 Os formulários permitem coletar dados dos usuários, como nomes, emails e outras informações.  
 
-  - [release/aula-forms-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/master/aula-forms-n2)  
+  - [release/aula-forms-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-forms-n2)  
 
 ### 3. Expressões Regulares (Regex)  
 Regex são padrões usados para validar entradas de texto, como campos de formulário, para garantir que dados estejam no formato correto.
 
-  - [release/aula-forms-regex-n2]( https://github.com/RaizerTechDev/curso-vai-na-web/tree/master/aula-forms-regex-n2)   
+  - [release/aula-forms-regex-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-forms-regex-n2)   
 
  ### 4. Desafio HTML: Sua Primeira Página Web
   
-  - [release/desafio-html](https://github.com/RaizerTechDev/curso-vai-na-web/tree/master/desafio-html-vainaweb-06102025)
+  - [release/desafio-html](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/desafio-html-vainaweb-06102025)
+
+  - [release/aula-github](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-github)
 
 <br>
 
