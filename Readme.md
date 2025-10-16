@@ -1,7 +1,4 @@
-#  Aulas de HTML - Curso [Vai na Web](https://vainaweb.com.br/) 
-
-
-
+# Módulo 1 – HTML - Curso [Vai na Web](https://vainaweb.com.br/) 
 
 Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai na Web. O objetivo é registrar os conceitos aprendidos, com exemplos de códigos comentados para facilitar o entendimento, além do desafio final realizado.
 
@@ -9,12 +6,20 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 
 ## # Índice 📚
 
-- 🔹 [Introdução ao HTML5](#1-introdução-ao-html5)
-- 🔹 [Formulário HTML](#2-formulários-html)
-- 🔹 [Expressões Regulares (Regex) para validação](#3-expressões-regulares-regex)
-- 🔹 [Desafio HTML: Sua Primeira Página Web](#4-desafio-html-sua-primeira-página-web)
-- 🔹 [Passo a passo para subir no GitHub](#5-passo-a-passo-para-subir-no-github)  
-- 🔹 [Licença](#licença)  
+- 🔹 [1. Introdução ao HTML5](#1-introdução-ao-html5)
+
+- 🔹 [2. Formulário HTML](#2-formulários-html)
+
+- 🔹 [3. Expressões Regulares (Regex) para validação](#3-expressões-regulares-regex)
+
+- 🔹 [4. Desafio HTML: Sua Primeira Página Web](#4-desafio-html-sua-primeira-página-web)
+
+- 🔹 [5. Aula GitHub: Sua Primeira Página Web](#5-aula-github-sua-primeira-página-web)
+
+- 🔹 [Passo a passo para subir no GitHub](#passo-a-passo-para-subir-no-github)  
+
+- 🔹 [Licença](#licença) 
+ 
 - 🔹 [Autor](#autor)
 
 <br>
@@ -50,7 +55,7 @@ Regex são padrões usados para validar entradas de texto, como campos de formul
 
 ***
 
-### 5. Passo a passo para subir no GitHub
+## Passo a passo para subir no GitHub
 
 1. **Crie um repositório novo no GitHub:**  
    - Acesse sua conta no [GitHub](https://github.com)  
