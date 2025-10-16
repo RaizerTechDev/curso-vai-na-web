@@ -6,7 +6,7 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 
 ## # Índice 📚
 
-- 🔹 [Introdução ao HTML5](#introdução-ao-html5)
+- 🔹 [1. Introdução ao HTML5](#1-introdução-ao-html5)
 
 - 🔹 [2. Formulário HTML](#2-formulários-html)
 
@@ -26,7 +26,7 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 
 ---
 
-###  Introdução ao HTML5  
+###  1. Introdução ao HTML5  
 
 HTML (HyperText Markup Language) é a linguagem básica para construir páginas na web. Usamos tags para estruturar textos, títulos, listas, links, imagens, entre outros elementos.
 
