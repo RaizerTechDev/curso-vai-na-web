@@ -41,8 +41,8 @@ let caminhoes = ['Scania', 'Volvo', 'Mercedes', 'Iveco']
 // // output: ['Scania', 'Volvo', 'GMC', 'Iveco']
 
 // // Ordene os modelos em ordem alfabética.
-// let modelosCaminhoes = caminhoes.sort()
-// console.log('Modelos por ordem alfabetica:', modelosCaminhoes)
+let modelosCaminhoes = caminhoes.sort()
+console.log('Modelos por ordem alfabetica:', modelosCaminhoes)
 
 // // output: ['GMC', 'Iveco', 'Scania', 'Volvo']
 
