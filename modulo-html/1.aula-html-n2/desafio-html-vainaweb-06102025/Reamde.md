@@ -7,7 +7,7 @@
 [Demonstração-Desafio]  
 <img src="https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35" />
 
-<img height="480em" src="../img/demonstrativo-desafiohtml.png" align="center" />
+<img height="480em" src="./img/demonstrativo-desafiohtml.png" align="center" />
 
 </div>
 
