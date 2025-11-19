@@ -1,16 +1,16 @@
-# Módulo 1 – HTML - Curso [Vai na Web](https://vainaweb.com.br/) 
+# Módulo – HTML - SCSS - JavaScript - Curso [Vai na Web](https://vainaweb.com.br/) 
 
-Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai na Web. O objetivo é registrar os conceitos aprendidos, com exemplos de códigos comentados para facilitar o entendimento, além do desafio final realizado.
+Este repositório contém minhas aulas e estudos de HTML - SCSS e JavaScript realizados no curso Vai na Web. O objetivo é registrar os conceitos aprendidos, com exemplos, desafios e exercícos de códigos comentados para facilitar o entendimento;
 
 ---
 
 ## # Índice 📚
 
-- 🔹 [1. Introdução ao HTML5](#1-introdução-ao-html5)
+- 🔹 [Modulo HTML](#modulo---html)
 
-- 🔹 [2. Formulário HTML](#2-formulários-html)
+- 🔹 [Modulo SCSS](#modulo---scss)
 
-- 🔹 [3. Expressões Regulares (Regex) para validação](#3-expressões-regulares-regex)
+- 🔹 [Modulo JS](#modulo---javascript)
 
 - 🔹 [4. Desafio HTML: Sua Primeira Página Web](#4-desafio-html-sua-primeira-página-web)
 
@@ -26,41 +26,58 @@ Este repositório contém minhas aulas e estudos de HTML realizados no curso Vai
 
 ---
 
-###  1. Introdução ao HTML5  
+###  Modulo - HTML 
 
 HTML (HyperText Markup Language) é a linguagem básica para construir páginas na web. Usamos tags para estruturar textos, títulos, listas, links, imagens, entre outros elementos.
 
-- [release/aula-html5-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/Aula-html-n2)
-
-### 2. Formulários HTML
-Os formulários permitem coletar dados dos usuários, como nomes, emails e outras informações.  
-
-  - [release/aula-forms-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-forms-n2)  
-
-### 3. Expressões Regulares (Regex)  
-Regex são padrões usados para validar entradas de texto, como campos de formulário, para garantir que dados estejam no formato correto.
-
-  - [release/aula-forms-regex-n2](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-forms-regex-n2)   
-
- ### 4. Desafio HTML: Sua Primeira Página Web
-  
-  - [release/desafio-html](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/desafio-html-vainaweb-06102025)
-
-   ### 5. Aula GitHub: Sua Primeira Página Web
-   GitHub é uma plataforma essencial para controle de versão e colaboração.
-
-  - [release/aula-github](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/aula-github)
+- [Aulas do HTML](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/modulo-html)
 
 <br>
 
-***
+--- 
 
-## Passo a passo para subir no GitHub
+
+### Modulo - SCSS
+ (Sassy CSS) é uma pré-processador para CSS que adiciona recursos avançados e uma sintaxe mais poderosa ao CSS tradicional.
+
+#### O que é SCSS?
+SCSS é uma extensão do CSS que:
+
+- Compila para CSS puro
+
+- Mantém compatibilidade com sintaxe CSS
+
+- Adiciona funcionalidades como variáveis, aninhamento, mixins e mais
+
+- [Aulas | Desafio do SCSS](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/modulo-sass) 
+
+<br> 
+
+---
+
+### Modulo - JavaScript
+JavaScript é uma linguagem de programação interpretada e multiparadigma para o desenvolvimento web, 
+
+#### O que faz o JS:
+
+- Executa no cliente (navegador) e no servidor (Node.js)
+
+- Torna páginas web interativas
+
+- É uma das tecnologias base da web junto com HTML e CSS
+
+  - [Aulas JS](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/modulo-js) 
+
+<br>
+
+---
+
+ ## Passo a passo para subir no GitHub
 
 1. **Crie um repositório novo no GitHub:**  
    - Acesse sua conta no [GitHub](https://github.com)  
    - Clique em "New repository"  
-   - Defina um nome para o repositório (ex: `desafio-html-sua-primeira-pagina-web`)  
+   - Defina um nome para o repositório (ex: `Módulo – HTML - SCSS - JavaScript`)  
    - Configure como público ou privado e clique em "Create repository"
 
 2. **No seu computador, abra o terminal Git Bash ou prompt de comando:**
