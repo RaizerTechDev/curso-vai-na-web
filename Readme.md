@@ -12,10 +12,6 @@ Este repositório contém minhas aulas e estudos de HTML - SCSS e JavaScript rea
 
 - 🔹 [Modulo JS](#modulo---javascript)
 
-- 🔹 [4. Desafio HTML: Sua Primeira Página Web](#4-desafio-html-sua-primeira-página-web)
-
-- 🔹 [5. Aula GitHub: Sua Primeira Página Web](#5-aula-github-sua-primeira-página-web)
-
 - 🔹 [Passo a passo para subir no GitHub](#passo-a-passo-para-subir-no-github)  
 
 - 🔹 [Licença](#licença) 
@@ -49,7 +45,7 @@ SCSS é uma extensão do CSS que:
 
 - Adiciona funcionalidades como variáveis, aninhamento, mixins e mais
 
-- [Aulas | Desafio do SCSS](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/modulo-sass) 
+- [Aulas | Desafio do SCSS](https://github.com/RaizerTechDev/curso-vai-na-web/tree/main/modulo-scss) 
 
 <br> 
 
