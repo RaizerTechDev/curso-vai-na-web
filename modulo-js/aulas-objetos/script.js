@@ -26,6 +26,8 @@ console.log(nomes)
 
 // Objetos = Classificar os elementos
 
+// ** Exemplo1. Vai criar um objeto literal e acessar suas propriedades:
+
 // let pessoas = [ 
 //     {
 //     nome: 'Rafa',
@@ -55,7 +57,20 @@ console.log(nomes)
 // console.log(alunos.idade)
 // console.log(alunos.nota[0])
 
-// array sistema de produtos
+// ** Exemplo 02 Adicionar, modificar e deletar propriedades de um objeto:
+
+const carro = {};
+carro.marca = 'Toyota'; // adicionado
+carro.modelo = 'Corolla'; // adicionado
+carro.mesCompra = 4 // adicionado
+carro.ano = 2020; // adicionado
+
+carro.ano = 2021 // modificado
+delete carro.mesCompra; // deletado
+console.log(carro);
+
+
+//** Exemplo 03 Criar array sistema de produtos com objetos
 const produtos = [
   {
     nome: 'Notebook',
