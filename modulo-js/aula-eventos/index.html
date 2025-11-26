@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula Eventos</title>
+</head>
+<!-- OnLoad carrega no body para garantir que os elementos HTML estejam prontos antes do JS -->
+
+<body onload="carregouPagina()">
+
+  <h1> Bem vindo a Aula de Eventos!</h1>
+
+  <!-- OnClick -->
+  <button onclick="dizerOla()">Clique aqui</button>
+
+  <input style="margin-left: 2rem;" type="text" onchange="nomeDigitado()" placeholder="Digite seu nome" />
+
+  <!-- onsubmit teclado e mouse -->
+  <form onsubmit="enviarFormulario(event)">
+    <input style="margin-top: 2rem;" type="text" placeholder="Digite seu nome" />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- OnMouseOver -->
+  <h2 id="passarMouse" OnMouseOver='destacaTexto()' OnMouseOut='voltaCor()' style="cursor: pointer;">
+    Passe o mouse aqui
+  </h2>
+
+  <!-- OnKeydown -->
+  <h2>
+    Olhar no console.log quando pressionar a tecla abaixo:
+  </h2>
+  <input type="text" onkeydown="teclaPressionada()" />
+
+  <!-- OnInput -->
+  <!-- Exemplo 1 Console Log-->
+  <h2 style="margin-top: 2rem;">
+    Olhar no console.log e monitore o texto abaixo:
+  </h2>
+  <input type="text" oninput="monitorarTexto()" placeholder="Digite um produto" />
+
+  <!-- Exemplo 2 na tela do navegador -->
+  <h2 style="margin-top: 2rem">
+    Olhar na tela:
+  </h2>
+  <input id="idade" type="number" placeholder="Digite a idade" />
+  <p id='resultadoIdade'></p>
+
+  <!-- OnLoad -->
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

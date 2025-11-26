@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula Flexbox</title>
+  </head>
+  <body>
+    <h1>O Flexbox</h1>
+    <p>
+      É a valor de display, que torna uma caixa flex, fazendo com que os
+      elementos internos possam receber, alinhamento, ordenação e tamanhos
+      flexíveis
+    </p>
+
+   <h3>alinhamento no eixo (X)</h3> <!-- Título indicando que o próximo container demonstra alinhamento no eixo horizontal (X) -->
+<section class="container"> <!-- Container flexível para o alinhamento horizontal -->
+  <div class="item">A</div> <!-- Item A dentro do container -->
+  <div class="item">B</div> <!-- Item B dentro do container -->
+  <div class="item">C</div> <!-- Item C dentro do container -->
+</section>
+
+<h3>alinhamento no eixo (y)</h3> <!-- Título indicando alinhamento no eixo vertical (Y) -->
+<section class="container2"> <!-- Segundo container para mostrar alinhamento vertical -->
+  <div class="item2">A</div> <!-- Item A para alinhamento vertical -->
+  <div class="item2">B</div> <!-- Item B para alinhamento vertical -->
+  <div class="item2">C</div> <!-- Item C para alinhamento vertical -->
+</section>
+
+<h3>Direção do eixo</h3> <!-- Título para apresentar a direção do eixo flexível -->
+<section class="container3"> <!-- Container para alterar a direção do eixo (exemplo: linha ou coluna) -->
+  <div class="item3">A</div> <!-- Item A dentro do container -->
+  <div class="item3">B</div> <!-- Item B dentro do container -->
+  <div class="item3">C</div> <!-- Item C dentro do container -->
+</section>
+
+<h3>Flex wrap</h3> <!-- Título para demonstrar o comportamento de quebra de linha por colunas com flex-wrap -->
+<section class="container4"> <!-- Container que permite múltiplos elementos que podem quebrar para outra linha -->
+  <div class="item4">A</div> <!-- Primeiro item A -->
+  <div class="item4">B</div> <!-- Primeiro item B -->
+  <div class="item4">C</div> <!-- Primeiro item C -->
+  <div class="item4">A</div> <!-- Segundo item A -->
+  <div class="item4">B</div> <!-- Segundo item B -->
+  <div class="item4">C</div> <!-- Segundo item C -->
+  <div class="item4">B</div> <!-- Terceiro item B -->
+  <div class="item4">C</div> <!-- Terceiro item C -->
+</section>
+
+<h3>Flex grow</h3> <!-- Título para mostrar o crescimento proporcional na mesma linha dos itens com flex-grow -->
+<section class="container5"> <!-- Container para demonstrar itens com diferentes fatores de crescimento -->
+  <div class="box box1">A</div> <!-- Item A com classe box1 para definir crescimento -->
+  <div class="box box2">B</div> <!-- Item B com classe box2 para definir crescimento -->
+  <div class="box box3">C</div> <!-- Item C com classe box3 para definir crescimento -->
+</section>
+
+  </body>
+</html>

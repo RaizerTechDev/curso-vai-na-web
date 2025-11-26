@@ -1,0 +1,77 @@
+@charset "UTF-8";
+* {
+  margin: 0; /* Remove as margens padrão de todos os elementos */
+  padding: 0; /* Remove o padding/preechimento padrão de todos os elementos */
+  box-sizing: border-box; /* Faz com que padding e bordas sejam incluídos nas larguras e alturas totais */
+  font-family: "Inter", sans-serif; /* Aplica a fonte "Inter" com fallback para sans-serif a todos os elementos */
+}
+
+main {
+  background-image: url("./img/valorant.jpg"); /* Define uma imagem de fundo para o elemento main */
+  height: 100vh; /* Altura do main igual a 100% da altura da janela (viewport) */
+  background-size: cover; /* A imagem de fundo cobre toda a área do main, mantendo proporção */
+  background-position: center; /* Centraliza a imagem de fundo dentro do main */
+  text-align: center; /* Centraliza horizontalmente o texto dentro do main */
+  padding-top: 55px; /* Espaço interno no topo do main de 55 pixels */
+}
+
+.form-container {
+  background-color: white; /* Fundo branco para o container do formulário */
+  margin-top: 120px; /* Espaço externo acima do container, separando-o do que estiver acima */
+  width: 520px; /* Largura fixa do container em 520 pixels */
+  padding: 40px 30px; /* Espaçamento interno: 40px em cima/baixo e 30px nas laterais */
+  border-radius: 34px; /* Bordas arredondadas com raio de 34 pixels */
+  display: inline-block; /* Exibição em linha, permitindo ajuste ao conteúdo */
+}
+.form-container h1 {
+  margin-bottom: 25px; /* Espaço abaixo do título h1 */
+  font-size: 22px; /* Tamanho da fonte do título */
+}
+.form-container form input[type=text],
+.form-container form input[type=email],
+.form-container form input[type=password],
+.form-container form input[type=tel] {
+  display: block; /* Cada input fica em linha própria (bloco) */
+  width: 100%; /* Largura total do container pai */
+  padding: 10px; /* Espaçamento interno de 10 pixels */
+  border-radius: 15px; /* Bordas arredondadas dos campos */
+  margin-bottom: 15px; /* Espaço abaixo de cada campo */
+  font-size: 20px; /* Tamanho da fonte nos campos */
+}
+.form-container form div.d-flex {
+  display: flex; /* Container flexível para alinhamento horizontal */
+  gap: 24px; /* Espaço de 24 pixels entre elementos filhos */
+  margin-bottom: 16px; /* Espaço abaixo deste container */
+}
+.form-container form div.d-flex input {
+  width: 50%; /* Cada input ocupa metade da largura do container flex */
+}
+.form-container form label {
+  display: flex; /* Label flexível para alinhar checkbox e texto */
+  align-items: center; /* Alinha verticalmente ao centro os filhos da label */
+  font-size: 20px; /* Tamanho da fonte do texto da label */
+  margin-bottom: 16px; /* Espaço abaixo da label */
+}
+.form-container form label input[type=checkbox] {
+  margin-right: 8px; /* Espaço à direita do checkbox */
+  transform: scale(1.8); /* Aumenta o tamanho do checkbox em 1.8 vezes (opcional) */
+}
+.form-container form label a {
+  color: #3c8dde; /* Cor do link dentro da label */
+  text-decoration: none; /* Remove sublinhado do link */
+  margin-left: 2px; /* Espaço à esquerda do link */
+  margin-right: 2px; /* Espaço à direita do link */
+}
+.form-container form button {
+  width: 80%; /* Largura do botão ocupa 80% do container form */
+  height: 65px; /* Altura fixa do botão */
+  padding: 12px 0; /* Espaçamento vertical dentro do botão */
+  background-color: #cd4742; /* Cor de fundo vermelha */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Sem borda */
+  border-radius: 15px; /* Bordas arredondadas do botão */
+  font-weight: bold; /* Fonte em negrito */
+  font-size: 28px; /* Tamanho da fonte do texto do botão */
+  cursor: pointer; /* Cursor muda para indicador de clique */
+  outline-offset: 4px; /* Espaço do contorno fora do botão ao focar */
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,102 @@
+* {
+  margin: 0; /* Remove margens padrão de todos os elementos */
+  padding: 0; /* Remove preenchimento interno padrão de todos os elementos */
+  box-sizing: border-box; /* Inclui bordas e padding na largura e altura totais dos elementos */
+}
+
+.container {
+  border: solid 2px; /* Define borda sólida de 2px ao redor do container */
+  height: 35vh; /* Altura do container definida em 35% da altura da viewport */
+  width: 50vw; /* Largura do container definida em 50% da largura da viewport */
+  display: flex; /* Define o container como flex container (modo flexível) */
+  justify-content: space-between; /* Distribui os itens com espaço entre eles, alinhados no eixo horizontal */
+  .item {
+    width: 60px; /* Define largura fixa de 60 pixels para os itens */
+    height: 60px; /* Define altura fixa de 60 pixels para os itens */
+    border: solid 2px greenyellow; /* Borda sólida verde-amarelada ao redor dos itens */
+    background-color: burlywood; /* Cor de fundo burlywood para os itens */
+  }
+}
+
+.container2 {
+  border: solid 2px; /* Borda sólida de 2px para o container2 */
+  height: 35vh; /* Altura de 35% da viewport */
+  width: 50vw; /* Largura de 50% da viewport */
+  display: flex; /* Define container2 como flex container */
+  // align-items: start; (padrão) /* Comentado: alinha itens no início do eixo vertical */
+  // align-items: center; /* Comentado: alinha itens no centro verticalmente */
+  // align-items: end; /* Comentado: alinha itens no fim do eixo vertical */
+  justify-content: center; /* Centraliza os itens horizontalmente no container */
+  // justify-content: start; (padrão) /* Comentado: alinha itens no início do eixo horizontal */
+  // justify-content: end; /* Comentado: alinha itens no fim do eixo horizontal */
+  // justify-content: space-evenly; /* Comentado: espaço igual ao redor dos itens */
+  // justify-content: space-around; /* Comentado: espaço com metade entre itens e bordas */
+  // justify-content: space-between; /* Comentado: espaço entre os itens, sem bordas */
+  .item2 {
+    width: 60px; /* Largura fixa dos itens 2 */
+    height: 60px; /* Altura fixa dos itens 2 */
+    border: solid 2px greenyellow; /* Borda verde-amarelada */
+    background-color: burlywood; /* Cor de fundo burlywood */
+  }
+}
+
+.container3 {
+  border: solid 2px; /* Borda sólida para container3 */
+  height: 35vh; /* Altura de 35% da viewport */
+  display: flex; /* Container3 é flex container */
+  flex-direction: row-reverse; /* Direção dos itens invertida na horizontal (da direita para a esquerda) */
+  // flex-direction: row; /* Comentado: direção padrão da esquerda para a direita */
+  // flex-direction: column; /* Comentado: direção vertical de cima para baixo */
+  // flex-direction: column-reverse; /* Comentado: direção vertical invertida */
+  justify-content: center; /* Centraliza itens horizontalmente */
+  align-items: center; /* Centraliza itens verticalmente */
+  .item3 {
+    width: 60px; /* Largura fixa dos itens 3 */
+    height: 60px; /* Altura fixa dos itens 3 */
+    border: solid 2px greenyellow; /* Borda verde-amarelada */
+    background-color: burlywood; /* Cor de fundo burlywood */
+  }
+}
+
+.container4 {
+  border: solid 2px; /* Borda sólida para container4 */
+  height: 55vh; /* Altura um pouco maior, 55% da viewport */
+  width: 300px; /* Largura fixa de 300 pixels */
+  display: flex; /* Flex container */
+  flex-wrap: wrap; /* Permite quebra dos itens em múltiplas linhas */
+  gap: 10px; /* Espaçamento de 10px entre os itens, tanto horizontal quanto vertical */
+  justify-content: space-evenly; /* Espaço igual distribuído ao redor dos itens */
+  align-content: flex-start; /* Alinha o conjunto das linhas ao início do eixo vertical */
+  .item4 {
+    width: 60px; /* Largura fixa dos itens 4 */
+    height: 60px; /* Altura fixa dos itens 4 */
+    border: solid 2px greenyellow; /* Borda verde-amarelada */
+    background-color: burlywood; /* Cor de fundo burlywood */
+  }
+}
+
+.container5 {
+  border: solid 2px; /* Borda sólida para container5 */
+  height: 55vh; /* Altura de 55% da viewport */
+  display: flex; /* Flex container */
+  .box {
+    flex-grow: 0; /* Padrão de crescimento 0, o item não cresce além do tamanho definido */
+    display: flex; /* Cada box também é um flex container */
+    height: 10vh; /* Altura relativa da viewport, 10% */
+    background-color: chocolate; /* Cor de fundo chocolate padrão */
+    border: solid 2px gold; /* Borda sólida dourada */
+    text-align: center; /* Texto centralizado dentro dos boxes */
+    &.box1 {
+      background-color: aqua; /* Cor de fundo aqua para o box1 */
+      flex-grow: 5; /* Cresce mais proporcionalmente (5 vezes) em relação aos outros */
+    }
+    &.box2 {
+      background-color: rgb(21, 0, 255); /* Fundo azul forte para box2 */
+      flex-grow: 3; /* Crescimento proporcional de 3 vezes */
+    }
+    &.box3 {
+      background-color: rgb(238, 0, 255); /* Fundo rosa forte para box3 */
+      flex-grow: 1; /* Crescimento padrão 1 vez */
+    }
+  }
+}

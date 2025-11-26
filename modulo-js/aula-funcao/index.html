@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula Funções</title>
+</head>
+
+<body>
+  <h1 id="titulo"> Boa Noite!</h1>
+  <!-- onclick mouse -->
+  <button onclick='mudarTexto()' style="cursor: pointer;"> Mudar Texto</button>
+
+  <!-- onchange teclado -->
+  <input 
+  id="nome" 
+  type="text" 
+  placeholder="Digite seu nome" />
+  
+  <p id="resultado"></p>
+
+  <div onmouseover="entrar()" onmouseout="sair()" id="caixa"
+    style="width: 120px; height: 120px; background: lightblue; margin-top: 80px;">
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
